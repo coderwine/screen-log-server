@@ -1,0 +1,39 @@
+{
+    "id": 123,
+    "ParentName": "J Doe",
+    "email": "email@email.com",
+    "password": "hashedPassword",
+    "children": [
+        {
+            "id": 456,
+            "name": "S Doe",
+            "age": 10,
+            "avatar": "image.jpg",
+            "daily_screen_log":[
+                {
+                    "id": 789,
+                    "title":"show name",
+                    "date": "2022-08-25",
+                    "start_time": "12:00",
+                    "end_time": "13:00",
+                    "total_time": "000:01:30"
+                }
+            ],
+            "weekly_screen_log":[ 
+                {
+                    "id": 112,
+                    "week_start" : "2022-08-21 00:00",
+                    "week_end" : "2022-08-27 11:59",
+                    "total_time": "000:20:00"
+                }
+            ],
+            "total_logged_time": "000:20:00"
+        }
+    ],
+    "notes": [
+        {
+            "title":"Note Title",
+            "details":"sample information here"
+        }
+    ]
+}
